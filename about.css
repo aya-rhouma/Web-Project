@@ -1,0 +1,85 @@
+.parent{
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    height: 750px;
+    width: 1500px;
+    display: inline;
+    overflow: hidden;
+    position: relative;
+}
+
+#wlc{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    font-size: 50px;
+    font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif; 
+    color: rgb(205, 174, 205);
+}
+
+#logo{
+    position: absolute;
+    top: 300px;
+    left: 800px;
+    height: 300px;
+    width: 600px;
+}
+
+.des{
+    position: absolute;
+    top: 300px;
+    left: 10px;
+}
+
+.txtdes{
+	font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
+    text-transform: none;
+    font-size: 20px;
+}
+
+.store{
+    font-size: 25px;
+    color: rgba(196, 181, 158, 0.888);
+    font-weight: bold;
+    font-style: oblique;
+}
+
+#hist{
+    position: absolute;
+    top: 480px;
+    left: 20px;
+    height: 170px;
+    width: 1480px;
+    background-color: rgba(66, 66, 66, 0.547);
+}
+
+.hist{
+    position: relative;
+    top: -30px;
+    text-indent: 100px;
+    font-size: 40px;
+    color: azure;
+    font-family: Palatino Linotype;
+    text-transform: uppercase;
+    
+}
+
+.txthist{
+    position: relative;
+    top: -50px;
+    padding: 0px 20px 0px 20px;
+    font-weight: 900;
+    font-size: 20px;
+    color: rgb(220, 220, 220);
+    text-transform: none;
+}
+
+.contact{
+    position: absolute;
+    top: 670px;
+    left: 150px;
+    font-weight: bold;
+}

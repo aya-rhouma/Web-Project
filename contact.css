@@ -1,0 +1,159 @@
+.parent{
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    height: 1000px;
+    width: 1500px;
+    display: inline;
+    overflow: hidden;
+    position: relative;
+}
+
+#contact{
+    float: right;
+    position: relative;
+    right: 100px;
+    top: 150px;
+    height: 300px;
+    width: 400px;
+}
+
+.contentcont{
+    position: absolute;
+    top: 120px;
+    left: -300px;
+    text-transform: none;
+    font-size: 40px;
+    text-indent: 400px;
+    color: #86c7ddb3;
+    font-size: 35px;
+    text-transform: none;
+}
+
+.tel{
+    position: relative;
+    left: 400px;
+}
+
+.choose,.tel{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(7, 77, 139, 0.926);
+}
+
+.choose:hover{
+    color: rgb(86, 176, 255);
+}
+
+.bi-whatsapp{
+    position: relative;
+    top: 2px;
+}
+
+.bi-envelope{
+    position: relative;
+    top: 2px;
+}
+
+.ask{
+	position:relative;
+	left:400px
+}
+
+.data{
+	width: 300px;
+    height:auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#msg{
+    position: relative;
+    height: 100px;
+    width: 200px;
+}
+
+#send{
+	position:relative;
+	top:-20px;
+	right:30px;
+    font-size: 30px;
+    color: rgb(0, 96, 180);
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.bi-chat-square-heart{
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top: 4px;
+}
+form {
+    position: relative;
+    left: 50px;
+    max-width: 400px;
+	height:450px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	line-height:50px;
+}
+  
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+  
+#mail{
+	  position: relative;
+	  right:100%;
+}
+  
+.data:focus{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    border-color: #aaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+select {
+    height: 40px;
+}
+  
+optgroup {
+    font-weight: bold;
+}
+  
+option {
+    padding: 10px;
+}
+
+button[type="button"] {
+    background-color: #005e6c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    width: 200px;
+    position: relative;
+    left: 90px;
+}
+  
+button[type="button"]:hover {
+    background-color: #003c45;
+}

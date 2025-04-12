@@ -1,0 +1,92 @@
+nav{
+    height: 80px;
+    width: 1600px;
+    padding: 10px;
+    position: fixed;
+    top: 0%;
+    z-index: 2;
+    background-color:white;
+}
+
+header{
+    padding: 20px;
+    height: 50px;
+    width: 1400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #00899f;
+    position: relative;
+}
+
+#img1{
+    width: 200px;
+    height: 50px;
+    float: left;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+div{
+    position: relative;
+    top: 5px;
+    text-transform: uppercase;
+    float: right;
+    display: inline;
+    margin-right: 5px;
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+div .nav {
+    float: left;
+    display: block;
+    color: rgb(133, 62, 247);
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+  
+.topnav .nav:hover {
+    color: #c2d0ffea;
+}
+
+.topnav a.active {
+    border-radius: 30px;
+    background-color: rgb(61, 155, 255);
+    color: white;
+}
+  
+.topnav .search-container {
+    float: right;
+    left: 5px;
+}
+  
+.topnav input[type=text] {
+    margin: 8px 0px 0px 8px;
+    font-size: 17px;
+    border-color: rgba(154, 154, 154, 0.84);
+    border-radius: 10px;
+    position: relative;
+}
+
+#button {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background: #ddd;
+    font-size: 17px;
+    border-color: rgba(154, 154, 154, 0.84);
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+}
+  
+#button:hover {
+    background: #ccc;
+}
+
+button{
+    cursor: pointer;
+}

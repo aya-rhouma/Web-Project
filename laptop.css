@@ -1,0 +1,80 @@
+.content{
+    height: 800px;
+    width: 1500px;
+    position: relative;
+}
+
+
+.img{
+    position: absolute;
+    left: 10px;
+    top: 100px;
+    height: 500px;
+    width: 500px;
+}
+
+ul,.name{
+    width: 500px;
+}
+
+.price{
+    position: absolute;
+    left: 150px;
+    top: 600px;
+    font-size: 30px;
+    color: rgb(90, 23, 171);
+    font-weight: bolder;
+}
+
+.no_disc{
+    text-decoration: line-through;
+}
+
+.with_disc{
+    top: 650px;
+}
+
+#btn_disc{
+    top: 700px;
+}
+
+.add{
+    position: relative;
+    left: 130px;
+    top: 650px;
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(29, 111, 110, 0.611);
+}
+
+.add:hover{
+    color: rgba(0, 0, 0, 0.519);
+    background-color: rgba(158, 249, 251, 0.386);
+}
+
+.name{
+    position: absolute;
+    left: 700px;
+    top: 150px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+ul{
+    position: absolute;
+    left: 650px;
+    top: 270px;
+    font-size: 16px;
+}
+
+li{
+    list-style-type: none;
+}
+
+#det{
+    color: rgb(63, 186, 186);
+    font-size: 20px;
+}

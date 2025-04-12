@@ -1,0 +1,52 @@
+.parent{
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    height: 1500px;
+    width: 1500px;
+    display: inline;
+    overflow: hidden;
+    position: relative;
+}
+
+#pclogohp{
+    position: absolute;
+    bottom: 240px;
+    left: 340px;
+    height: 50px;
+    width: 50px;
+
+}
+
+.txtdisc{
+    position: relative;
+    top: 125px;
+    right: 450px;
+    font-size: 40px;
+}
+
+.container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 10px;
+    position: relative;
+    top: 150px;
+    left: -150px;
+}
+
+.img1{
+    width: 400px;
+    height:300px;
+    text-align: center;
+    border-color: rgb(172, 198, 221);
+    background-color: #fff0e37f;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    position: relative;
+    box-shadow: rgba(63, 63, 63, 0.212) 10px 7px 10px 10px;
+}

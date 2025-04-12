@@ -1,0 +1,175 @@
+.parent{
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    height: 4000px;
+    width: 1500px;
+    display: inline;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+.aside{
+    position: fixed;
+    top: 120px;
+    left: 30px;
+    width: 150px;
+    height: 200px;
+    border:3px solid rgba(132, 132, 132, 0.925)
+}
+
+.choose{
+    top: 40px;
+    left: 40px;
+    float: left; 
+    color: #2e9aae;   
+}
+
+#pc{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#asus{
+    position: absolute;
+    left: 210px;
+    top: 120px;
+}
+
+#dell{
+    position: absolute;
+    left: 210px;
+    top: 1360px;
+}
+
+#hp{
+    position: absolute;
+    left: 210px;
+    top: 2600px;
+}
+
+#lenovo{
+    position: absolute;
+    left: 210px;
+    top: 3860px;
+}
+
+#msi{
+    position: absolute;
+    left: 210px;
+    top: 5090px;
+}
+
+.container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 10px;
+}
+
+.logo{
+    height:300px;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    text-align: center;
+    border-color: rgb(172, 198, 221);
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.img1{
+    width: 400px;
+    height:300px;
+    text-align: center;
+    border-color: rgb(172, 198, 221);
+    background-color: #fff0e37f;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    position: relative;
+    box-shadow: rgba(63, 63, 63, 0.212) 10px 7px 10px 10px;
+}
+
+#imglogo{
+    height: 250px;
+}
+
+#laptop{
+    position: relative;
+    left: 10px;
+    top: -25px;
+    height: 200px;
+    width: 200px;
+}
+
+#desc{
+    position: relative;
+    left: 5px;
+    top: -25px;
+}
+
+.color1{
+    color: silver;
+    position: relative;
+    left: 50px;
+}
+
+.color2{
+    color: blue;
+    position: relative;
+    left: 50px;
+}
+
+.color3{
+    color: black;
+    position: relative;
+    left: 50px;
+}
+
+.color4{
+    color: gray;
+    position: relative;
+    left: 50px;
+}
+
+.learn{
+    position: relative;
+    top: 110px;
+    right: 125px;
+    border-radius: 0px;
+}
+
+#next{
+    position: absolute;
+    left: 750px;
+    top: 3900px;
+}
+
+.next{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    background-color: #00aac4;
+    color: white;
+    border: 5px outset #005e6c;
+}
+
+#btn22{
+    position: relative;
+    bottom: 50px;
+    left: 60px;
+}
+
+.next:hover{
+    background-color: #005e6c;
+    color: white;
+    border: 5px inset #00aac4;
+    cursor: pointer;
+}
